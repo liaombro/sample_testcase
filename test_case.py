@@ -11,7 +11,7 @@ def driver():
     return driver
 
 
-def test_checkbox(driver):
+def test_doc_file_can_be_selected(driver):
        
     page = MainPage(driver)
     (page.open()
